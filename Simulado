@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simulado</title>
+	<style>
+		body {
+			background-color: gray;
+            height:70vw;
+		}
+		.container {
+			margin: 0 auto;
+			max-width: 1200px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+		.title {
+			font-size: 4rem;
+			font-weight: bold;
+			margin-bottom: 2rem;
+		}
+		.img-container {
+            
+            margin-top: 300px;
+			width: 90%;
+			margin-bottom: 2rem;
+		}
+		.img-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+		}
+		.button {
+			background-color: #008CBA;
+			color:black;
+			padding: 1rem 2rem;
+			border: none;
+			border-radius: 5px;
+			font-size: 1.5rem;
+			margin-bottom: 2rem;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+		.button:hover {
+			background-color: #006C9F;
+		}
+		.media-container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 80%;
+		}
+		.media-container img,
+		.media-container video {
+			width: 48%;
+			height: auto;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+
+		}
+
+
+        .footer {
+               text-align: center;
+               align-items: center;
+               border: solid black;
+               margin-top: 10px;
+               margin-bottom: 10px;
+               background-color: blue;
+               width: 120%;
+        }
+            
+	</style>
+</head>
+<body>
+
+	<div class="container">
+      
+	
+		<div class="img-container">
+			<img src="https://www.oficinadanet.com.br/imagens/post/29025/capa-lol-e-o-game-mais-assistido-da-twitch-de-2019_1400x875_5df95c7508bfd.jpg" alt="League of Legends logo">
+		</div>
+		<button class="button">Vamos lá</button>
+		<div class="media-container">
+			<img src="https://pbs.twimg.com/media/FeVJyAxXwA8c-tg.jpg:large" alt="League of Legends image">
+			<iframe width="560" height="308" src="https://www.youtube.com/embed/xXA65ND49tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+        <footer class="footer">
+            <h1> E-MAIL: bricio07lol@gmail.com </h1>
+        </footer>
+	</div>
+
+    
+
+</body>
+</html>
